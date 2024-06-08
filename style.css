@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.card{
+    width: 80%;
+    height: 100%;
+}
+
+/* main{
+    background-image: url("https://www.freepik.com/free-ai-image/view-3d-cloud_133554256.htm#fromView=search&page=1&position=1&uuid=4746f29a-db23-4907-ac28-309248ff2ad7");
+} */
+
+.card-image{
+    height: 30px;
+    margin-left: 10px;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
