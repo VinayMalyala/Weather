@@ -27,9 +27,18 @@ html, body{
     height: 100%;
 }
 
-/* main{
-    background-image: url("https://www.freepik.com/free-ai-image/view-3d-cloud_133554256.htm#fromView=search&page=1&position=1&uuid=4746f29a-db23-4907-ac28-309248ff2ad7");
-} */
+.bg-container{
+    /* background-image: url("https://imgs.search.brave.com/WOlv6AEjIop3L-YlGDh0Vg4NmHSGUBwFj_I9oo_kQec/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/ODAxOTM3NjkyMTAt/YjhkMWMwNDlhN2Q5/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TWpCOGZI/ZGxZWFJvWlhKOFpX/NThNSHg4TUh4OGZE/QT0.jpeg"); */
+    background-image: url("bg-image4.jpg");
+    height: 110vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 
 .card-image{
     height: 30px;
