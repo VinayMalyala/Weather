@@ -119,3 +119,18 @@ const seoulWeather = () => {
 }
 
 seoulWeather()
+
+seattle.addEventListener("click", (e) => {
+	e.preventDefault()
+	getWeather("Seattle")
+})
+
+london.addEventListener("click", (e) => {
+	e.preventDefault()
+	getWeather("London")
+})
+
+tokyo.addEventListener("click", (e) => {
+	e.preventDefault()
+	getWeather("Tokyo")
+})

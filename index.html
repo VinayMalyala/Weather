@@ -17,7 +17,7 @@
   <!-- navbar starts  -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Weather App</a>
+      <a class="navbar-brand" href="#">Weather App <i class="fa-solid fa-cloud"></i></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,25 +28,26 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About this App</a>
+            <a class="nav-link" href="README.md">About this App</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               City
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Seattle</a></li>
-              <li><a class="dropdown-item" href="#">London</a></li>
-              <li><a class="dropdown-item" href="#">Tokyo</a></li>
+              <li><a class="dropdown-item" href="#" id="seattle">Seattle</a></li>
+              <li><a class="dropdown-item" href="#" id="london">London</a></li>
+              <li><a class="dropdown-item" href="#" id="tokyo">Tokyo</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Usage Guide</a>
+            <a class="nav-link" aria-disabled="true" href="README.md">Usage Guide</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
           <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
+          <i class="fa-solid fa-magnifying-glass search" type="submit" id="submit"></i>
+          <!-- <button class="btn btn-outline-success" type="submit" id="submit">Search</button> -->
         </form>
       </div>
     </div>
@@ -199,6 +200,9 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <script src="script.js"></script>
+
+  <!-- font awesome link  -->
+  <script src="https://kit.fontawesome.com/6df1d47840.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
