@@ -18,6 +18,9 @@ The Weather App is a simple web application that provides real-time weather info
 - **JavaScript**: For fetching data from the API and updating the UI dynamically.
 - **Bootstrap**: For responsive design and layout.
 
+## Preview:
+
+
 ## How to Use
 
 1. **Search for a City**:
