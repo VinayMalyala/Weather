@@ -20,6 +20,8 @@ The Weather App is a simple web application that provides real-time weather info
 
 ## Preview:
 
+https://github.com/VinayMalyala/Weather/assets/111955986/67f2ffb8-04e3-4e0c-a74f-0854d738ff1a
+
 
 ## How to Use
 
